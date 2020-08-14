@@ -189,11 +189,11 @@ header {
   transform: scale(0.1, 1);
 }
 .overlay a {
-  font-size: 100%;
+  font-size: 150%;
 }
 @media screen and (max-height: 450px) {
   .overlay a {
-    font-size: 10px;
+    font-size: 150%;
   }
   .overlay .close {
     font-size: 40px;
@@ -210,9 +210,12 @@ header {
   .menu {
     display: initial;
   }
+  .overlay a {
+    font-size: 200%;
+  }
 }
 @media only screen and (max-width: 1170px) {
   header {
-    font-size: 60%;
+    font-size: 80%;
   }
 }
