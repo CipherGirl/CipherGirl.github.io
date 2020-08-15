@@ -80,6 +80,9 @@ section#about {
   background-size: cover;
   background-attachment: fixed;
 }
+section#about p {
+  font-size: 1.5em;
+}
 section#about::before {
   content: "";
   position: absolute;
@@ -95,7 +98,7 @@ section#about::before {
   max-height: 80%;
   position: absolute;
   color: #ffffff;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(5px);
 }
 
@@ -107,12 +110,12 @@ section#about::before {
 }
 
 .info-highlight {
-  font-size: calc(1.2em + 0.5vmin);
+  font-size: 1.5em;
 }
 
 .info {
   font-family: "Josefin Slab";
-  font-size: calc(1em + 0.5vmin);
+  font-size: 1.2em;
 }
 
 @media only screen and (max-width: 768px) {
@@ -160,6 +163,9 @@ a {
 section#contact p {
   font-size: 1.5em;
 }
-.emailhover:hover {
-  text-transform: uppercase;
+.emailhover {
+  font-size: 150%;
+}
+section#project {
+  padding: 2em;
 }
