@@ -127,9 +127,9 @@ section#about::before {
   font-size: calc(1em + 0.5vmin);
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 768px) {
   body {
-    font-size: 60%;
+    font-size: 0.75em;
   }
   .container {
     width: 100%;

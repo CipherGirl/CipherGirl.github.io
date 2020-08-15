@@ -192,11 +192,7 @@ header {
   font-size: 150%;
 }
 @media screen and (max-height: 450px) {
-  .overlay a {
-    font-size: 150%;
-  }
   .overlay .close {
-    font-size: 40px;
     top: 15px;
     right: 35px;
   }
@@ -211,11 +207,16 @@ header {
     display: initial;
   }
   .overlay a {
-    font-size: 200%;
+    font-size: 150%;
   }
 }
 @media only screen and (max-width: 1170px) {
   header {
-    font-size: 80%;
+    font-size: 0.7em;
+  }
+}
+@media only screen and (max-width: 425px) {
+  header {
+    font-size: 100%;
   }
 }
