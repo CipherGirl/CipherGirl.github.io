@@ -147,6 +147,8 @@ section#about::before {
   }
 }
 section#contact {
+  text-shadow: 1px 1px rgb(0, 0, 0);
+
   background-color: rgb(58, 62, 78);
 }
 form {
@@ -167,5 +169,6 @@ section#contact p {
   font-size: 120%;
 }
 section#project {
+  text-shadow: 1px 1px rgb(85, 37, 37);
   padding: 2em;
 }
