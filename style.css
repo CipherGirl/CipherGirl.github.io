@@ -40,6 +40,8 @@ section {
   text-align: center;
   width: 100%;
   height: 100vh;
+  /* Scroll Snap */
+  scroll-snap-align: center;
 }
 
 section h1 {
@@ -65,7 +67,7 @@ section.bg {
   width: 100%;
   display: flex;
   align-items: center;
-  background: url("assets/cover.jpg") no-repeat center center/cover;
+  background: url("assets/cover.jpg") no-repeat center center/fill;
   justify-content: center;
   background-size: cover;
   background-attachment: fixed;
@@ -85,7 +87,7 @@ section#about {
   width: 100%;
   display: flex;
   align-items: center;
-  background: url("assets/about.jpg") no-repeat center center/cover;
+  background: url("assets/me_GHC.jpg") no-repeat center center/cover;
   justify-content: center;
   background-size: cover;
   background-attachment: fixed;
@@ -128,5 +130,24 @@ section#about::before {
 @media only screen and (max-width: 425px) {
   body {
     font-size: 60%;
+  }
+  .container {
+    width: 100%;
+    height: 100%;
+    /* CSS Smooth Scroll */
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+  }
+  section#about {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: url("assets/me_ghc.jpg") no-repeat center center/cover;
+    justify-content: center;
+    background-size: cover;
+    background-attachment: fixed;
   }
 }
