@@ -8,7 +8,7 @@ body {
   width: 100%;
   overflow-x: hidden;
   font-family: "Raleway", "Lato", Helvetica, sans-serif;
-  background: #333;
+  background: rgb(61, 44, 32);
   color: #fff;
 }
 header {
@@ -218,5 +218,8 @@ header {
 @media only screen and (max-width: 425px) {
   header {
     font-size: 100%;
+  }
+  .logo {
+    font-size: 200%;
   }
 }

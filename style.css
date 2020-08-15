@@ -14,8 +14,8 @@ body {
   -webkit-justify-content: center;
   justify-content: center;
   width: 100%;
-  font-family: "Sacramento", "Josefin Slab", cursive, serif;
-  background: rgb(78, 71, 70);
+  font-family: "Josefin Slab", "Sacramento", cursive, serif;
+  background: rgb(156, 111, 79);
   color: #fff;
   height: 100vh; /* Used to enable scrolling */
   line-height: 1.6;
@@ -60,19 +60,7 @@ section#home {
   background-size: cover;
   background-attachment: fixed;
 }
-
-section.bg {
-  position: relative;
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  background: url("assets/cover.jpg") no-repeat center center/fill;
-  justify-content: center;
-  background-size: cover;
-  background-attachment: fixed;
-}
-section.bg::before {
+section#home::before {
   content: "";
   position: absolute;
   top: 0px;
@@ -150,4 +138,28 @@ section#about::before {
     background-size: cover;
     background-attachment: fixed;
   }
+  #contact p a {
+    display: flex;
+    flex-direction: column;
+  }
+}
+section#contact {
+  background-color: rgb(58, 62, 78);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem;
+}
+label {
+  padding: 0.5em 0em;
+}
+a {
+  text-decoration: none;
+}
+section#contact p {
+  font-size: 1.5em;
+}
+.emailhover:hover {
+  text-transform: uppercase;
 }
