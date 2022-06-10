@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "title": "JontroPati",
+    "subtitle": "Power/Hand Tools Manufacturer Website",
+    "description": "Responsive manufacturer website that has collections of products where users can register to the site, update their profile, leave a review, order and pay for products.\nSeparated admin dashboard. Admin can access products, and orders, and manage them as well. Admin can make other users admin and revoke admin access.",
+    "image": "jontropati.png",
+    "techs": "Developed with MERN Stack",
+    "links": {
+      "live": "https://jontropati.firebaseapp.com/",
+      "client": "https://github.com/CipherGirl/JontroPati-Client",
+      "server": "https://github.com/CipherGirl/JontroPati-Server"
+    }
+  },
+  {
+    "id": 2,
+    "title": "JontroPati",
+    "subtitle": "Power/Hand Tools Manufacturer Website",
+    "description": "Responsive manufacturer website that has collections of products where users can register to the site, update their profile, leave a review, order and pay for products.\nSeparated admin dashboard. Admin can access products, and orders, and manage them as well. Admin can make other users admin and revoke admin access.",
+    "image": "jontropati.png",
+    "techs": "Developed with MERN Stack",
+    "links": {
+      "live": "https://jontropati.firebaseapp.com/",
+      "client": "https://github.com/CipherGirl/JontroPati-Client",
+      "server": "https://github.com/CipherGirl/JontroPati-Server"
+    }
+  },
+  {
+    "id": 3,
+    "title": "JontroPati",
+    "subtitle": "Power/Hand Tools Manufacturer Website",
+    "description": "Responsive manufacturer website that has collections of products where users can register to the site, update their profile, leave a review, order and pay for products.\nSeparated admin dashboard. Admin can access products, and orders, and manage them as well. Admin can make other users admin and revoke admin access.",
+    "image": "jontropati.png",
+    "techs": "Developed with MERN Stack",
+    "links": {
+      "live": "https://jontropati.firebaseapp.com/",
+      "client": "https://github.com/CipherGirl/JontroPati-Client",
+      "server": "https://github.com/CipherGirl/JontroPati-Server"
+    }
+  },
+  {
+    "id": 4,
+    "title": "JontroPati",
+    "subtitle": "Power/Hand Tools Manufacturer Website",
+    "description": "Responsive manufacturer website that has collections of products where users can register to the site, update their profile, leave a review, order and pay for products.\nSeparated admin dashboard. Admin can access products, and orders, and manage them as well. Admin can make other users admin and revoke admin access.",
+    "image": "jontropati.png",
+    "techs": "Developed with MERN Stack",
+    "links": {
+      "live": "https://jontropati.firebaseapp.com/",
+      "client": "https://github.com/CipherGirl/JontroPati-Client",
+      "server": "https://github.com/CipherGirl/JontroPati-Server"
+    }
+  },
+  {
+    "id": 5,
+    "title": "JontroPati",
+    "subtitle": "Power/Hand Tools Manufacturer Website",
+    "description": "Responsive manufacturer website that has collections of products where users can register to the site, update their profile, leave a review, order and pay for products.\nSeparated admin dashboard. Admin can access products, and orders, and manage them as well. Admin can make other users admin and revoke admin access.",
+    "image": "jontropati.png",
+    "techs": "Developed with MERN Stack",
+    "links": {
+      "live": "https://jontropati.firebaseapp.com/",
+      "client": "https://github.com/CipherGirl/JontroPati-Client",
+      "server": "https://github.com/CipherGirl/JontroPati-Server"
+    }
+  }
+]
