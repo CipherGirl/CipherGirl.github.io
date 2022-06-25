@@ -32,9 +32,6 @@
 }
 .image-scroll {
   background-size: 100%;
-  background-position-x: 0;
-  background-repeat: no-repeat;
-  transition: all 3s ease;
 }
 
 .image-scroll:hover {

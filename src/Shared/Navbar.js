@@ -1,4 +1,5 @@
 import React from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Navbar = () => {
   return (
@@ -25,11 +26,9 @@ const Navbar = () => {
             tabindex="0"
             class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
+            <li>{/* <Link to="/#experience">Experience</Link> */}</li>
             <li>
-              <a href="#experience">Experience</a>
-            </li>
-            <li>
-              <a href="#projects">Projects</a>
+              <Link to="/#projects">Projects</Link>
             </li>
             <li>
               <a href="https://ciphergirl.github.io/blog" target="_blank">
@@ -37,24 +36,22 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="#about">About</a>
+              <Link to="/#about">About</Link>
             </li>
             <li>
-              <a href="#contact">Contact Me!</a>
+              <Link to="/#contact">Contact Me!</Link>
             </li>
           </ul>
         </div>
-        <a class="br" href="#hero">
+        <Link to="/#hero" className="brand">
           <img src={require('../Assets/logo.svg').default} alt="ciphergirl" />
-        </a>
+        </Link>
       </div>
       <div class="hidden lg:flex">
         <ul class="menu menu-horizontal p-0">
+          <li>{/* <Link to="/#experience">Experience</Link> */}</li>
           <li>
-            <a href="#experience">Experience</a>
-          </li>
-          <li>
-            <a href="#projects">Projects</a>
+            <Link to="/#projects">Projects</Link>
           </li>
           <li>
             <a href="https://ciphergirl.github.io/blog" target="_blank">
@@ -62,14 +59,14 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <Link to="/#about">About</Link>
           </li>
         </ul>
       </div>
       <div class="hidden md:flex md:navbar-end">
-        <a class="btn btn-outline btn-accent" href="#contact">
+        <Link class="btn btn-outline btn-accent" to="/#contact">
           Contact Me!
-        </a>
+        </Link>
       </div>
     </div>
   );

@@ -1,11 +1,34 @@
 [
   {
     "id": 1,
+    "slug": "jontropati",
     "title": "JontroPati",
     "subtitle": "Power/Hand Tools Manufacturer Website",
+    "features": [
+      "User Registration",
+      "User Profile",
+      "Product Purchasing",
+      "Order Tracking",
+      "Admin Dashboard"
+    ],
     "description": "Responsive manufacturer website that has collections of products where users can register to the site, update their profile, leave a review, order and pay for products.\nSeparated admin dashboard. Admin can access products, and orders, and manage them as well. Admin can make other users admin and revoke admin access.",
-    "image": "jontropati.png",
-    "techs": "Developed with MERN Stack",
+    "image": "jontropati-mock.png",
+    "preview": [
+      "jontropati-1.png",
+      "jontropati-2.png",
+      "jontropati-3.png",
+      "jontropati-4.png"
+    ],
+    "info": "Developed with MERN Stack",
+    "techs": [
+      "React,js,",
+      "Firebase,",
+      "Node.js,",
+      "MongoDB,",
+      "Stripe",
+      "Mantine UI,",
+      "TailwindCSS"
+    ],
     "links": {
       "live": "https://jontropati.firebaseapp.com/",
       "client": "https://github.com/CipherGirl/JontroPati-Client",
@@ -14,54 +37,52 @@
   },
   {
     "id": 2,
-    "title": "JontroPati",
-    "subtitle": "Power/Hand Tools Manufacturer Website",
-    "description": "Responsive manufacturer website that has collections of products where users can register to the site, update their profile, leave a review, order and pay for products.\nSeparated admin dashboard. Admin can access products, and orders, and manage them as well. Admin can make other users admin and revoke admin access.",
-    "image": "jontropati.png",
-    "techs": "Developed with MERN Stack",
+    "slug": "aroma-central",
+    "title": "Aroma Central",
+    "features": ["User Registration", "Stock Updating"],
+    "subtitle": "Fragrance Products Warehouse Inventory Website",
+    "description": "Responsive inventory website that has collections of products that users can stock. Users can register to the site and update stocks.\n Authentication and Authorization using Firebase and JWT, MongoDB to store data, and Node/Express App to access API endpoint to interact with the DB through Client.",
+    "image": "aroma-central-mock.png",
+    "preview": [
+      "aroma-central-1.png",
+      "aroma-central-2.png",
+      "aroma-central-3.png"
+    ],
+    "info": "Developed with MERN Stack",
+    "techs": [
+      "React,js,",
+      "Firebase,",
+      "Node.js,",
+      "MongoDB,",
+      "Mantine UI,",
+      "TailwindCSS"
+    ],
     "links": {
-      "live": "https://jontropati.firebaseapp.com/",
-      "client": "https://github.com/CipherGirl/JontroPati-Client",
-      "server": "https://github.com/CipherGirl/JontroPati-Server"
+      "live": "https://aroma-central.web.app/",
+      "client": "https://github.com/CipherGirl/Aroma-Central-Client",
+      "server": "https://github.com/CipherGirl/Aroma-Central-Server"
     }
   },
   {
     "id": 3,
-    "title": "JontroPati",
-    "subtitle": "Power/Hand Tools Manufacturer Website",
-    "description": "Responsive manufacturer website that has collections of products where users can register to the site, update their profile, leave a review, order and pay for products.\nSeparated admin dashboard. Admin can access products, and orders, and manage them as well. Admin can make other users admin and revoke admin access.",
-    "image": "jontropati.png",
-    "techs": "Developed with MERN Stack",
+    "slug": "dcc-oj",
+    "title": "DCC Online Judge",
+    "features": [
+      "User Registration",
+      "User Profile",
+      "Problem Statement Adding",
+      "Code Editor",
+      "Problem Submission"
+    ],
+    "subtitle": "An open-source Online Judge platform to develop programming skills by practicing programming problems",
+    "description": "Collaborated with my teammate to implement the whole project using Git and Github.\nIntegrated Monaco code editor for submission and code view page. Integrated Judge0 API to handle code submission to the judge, get a verdict and show in the UI.",
+    "image": "oj-mock.png",
+    "preview": ["oj-1.png", "oj-2.png", "oj-3.png"],
+    "info": "Developed with React, Bootstrap, and Firebase using Judge0 API",
+    "techs": ["React,", "Firebase,", "Judge0 API,", "Bootstrap,"],
     "links": {
-      "live": "https://jontropati.firebaseapp.com/",
-      "client": "https://github.com/CipherGirl/JontroPati-Client",
-      "server": "https://github.com/CipherGirl/JontroPati-Server"
-    }
-  },
-  {
-    "id": 4,
-    "title": "JontroPati",
-    "subtitle": "Power/Hand Tools Manufacturer Website",
-    "description": "Responsive manufacturer website that has collections of products where users can register to the site, update their profile, leave a review, order and pay for products.\nSeparated admin dashboard. Admin can access products, and orders, and manage them as well. Admin can make other users admin and revoke admin access.",
-    "image": "jontropati.png",
-    "techs": "Developed with MERN Stack",
-    "links": {
-      "live": "https://jontropati.firebaseapp.com/",
-      "client": "https://github.com/CipherGirl/JontroPati-Client",
-      "server": "https://github.com/CipherGirl/JontroPati-Server"
-    }
-  },
-  {
-    "id": 5,
-    "title": "JontroPati",
-    "subtitle": "Power/Hand Tools Manufacturer Website",
-    "description": "Responsive manufacturer website that has collections of products where users can register to the site, update their profile, leave a review, order and pay for products.\nSeparated admin dashboard. Admin can access products, and orders, and manage them as well. Admin can make other users admin and revoke admin access.",
-    "image": "jontropati.png",
-    "techs": "Developed with MERN Stack",
-    "links": {
-      "live": "https://jontropati.firebaseapp.com/",
-      "client": "https://github.com/CipherGirl/JontroPati-Client",
-      "server": "https://github.com/CipherGirl/JontroPati-Server"
+      "live": "https://online-judge-4f4f3.web.app/",
+      "code": "https://github.com/Shadman-Ahmed-Chowdhury/dcc-oj"
     }
   }
 ]
