@@ -66,7 +66,7 @@ const Contact = () => {
     <div
       ref={myRef}
       id="contact"
-      className="flex flex-col w-full justify-center items-center m-auto mt-32 mb-20"
+      className="flex flex-col w-full justify-center items-center m-auto pt-24 mb-20"
     >
       <h1 className="text-4xl ">Contact</h1>
 

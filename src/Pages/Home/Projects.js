@@ -19,13 +19,7 @@ const Projects = () => {
 
   useEffect(() => scrollToComponent(), []);
 
-  let easing = [0.6, -0.05, 0.01, 0.99];
-
-  // useEffect(() => {
-  //   if (inView) {
-  //     controls.start('visible');
-  //   }
-  // }, [controls, inView]);
+  const easing = [0.6, -0.05, 0.01, 0.99];
 
   const variants = {
     visible: { opacity: 1, y: 0 },

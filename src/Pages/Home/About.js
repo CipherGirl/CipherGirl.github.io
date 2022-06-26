@@ -17,6 +17,7 @@ const About = () => {
     visible: { opacity: 1, y: 0 },
     hidden: { opacity: 0, y: 60 },
   };
+  const easing = [0.6, -0.05, 0.01, 0.99];
 
   return (
     <div
@@ -30,8 +31,8 @@ const About = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{
-            duration: 1,
-            ease: 'easeIn',
+            duration: 0.8,
+            ease: easing,
           }}
           src="about.png"
         />
@@ -42,7 +43,7 @@ const About = () => {
             variants={variants}
             transition={{
               duration: 0.5,
-              ease: 'easeIn',
+              ease: easing,
               delay: 0.1,
             }}
           >
@@ -61,7 +62,7 @@ const About = () => {
             variants={variants}
             transition={{
               duration: 0.5,
-              ease: 'easeIn',
+              ease: easing,
               delay: 0.15,
             }}
           >
@@ -76,7 +77,7 @@ const About = () => {
             variants={variants}
             transition={{
               duration: 0.5,
-              ease: 'easeIn',
+              ease: easing,
               delay: 0.2,
             }}
           >

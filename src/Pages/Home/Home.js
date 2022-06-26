@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import Projects from './Projects';
 import About from './About';
 import Contact from './Contact';
+import Experience from './Experience';
 
 const Home = () => {
   const myRef = useRef();
@@ -30,7 +31,7 @@ const Home = () => {
             transition={{ type: 'spring', stiffness: 60 }}
             className="w-[80%] lg:w-[45%] flex flex-col items-center lg:items-start mt-10 lg:mt-0"
           >
-            <h1 className="text-xs mb-2">Hello, I'm</h1>
+            <h1 className="text-sm mb-2 italic">Hello, I'm</h1>
             <h1 className="text-4xl font-semibold">Hasna Hena Mow</h1>
             <h2 className="text-xl italic">
               I design and build things for the web.
@@ -39,7 +40,8 @@ const Home = () => {
               A recent graduate student developing myself to pursue a career as
               a Software Engineer. Interested to learn different techs. My
               favorite programming laguage is JavaScript. I love to work with
-              MERN stack. I love to go by my pseudoname <em>CipherGirl</em>.
+              MERN stack. I love to go by my pseudoname{' '}
+              <em className="font-semibold">CipherGirl</em>.
             </p>
             <a
               className="btn btn-success btn-wide mt-6"
@@ -58,6 +60,7 @@ const Home = () => {
           </motion.div>
         </div>
       </motion.div>
+      <Experience />
       <Projects />
       <About />
       <Contact />
