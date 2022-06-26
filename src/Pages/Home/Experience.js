@@ -21,7 +21,7 @@ const Experience = () => {
     <div
       ref={myRef}
       id="experience"
-      className="min-h-screen flex flex-col items-center justify-center gap-10 pt-32 mb-12 mx-4"
+      className="min-h-screen flex flex-col items-center justify-center gap-10 pt-20 mb-12 mx-4"
     >
       <h1 className="text-4xl ">Experience</h1>
       <div className="max-w-7xl flex flex-col gap-10">

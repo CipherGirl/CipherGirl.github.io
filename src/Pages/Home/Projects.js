@@ -30,7 +30,7 @@ const Projects = () => {
     <div
       ref={myRef}
       id="projects"
-      className="min-h-[80vh] flex flex-col items-center justify-center gap-10"
+      className="min-h-[80vh] flex flex-col items-center justify-center gap-10 pt-20 lg:pt-0"
     >
       <h1 className="text-4xl ">Projects</h1>
       <div className="max-w-[90%] flex flex-wrap items-center justify-evenly gap-5">

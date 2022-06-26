@@ -23,10 +23,10 @@ const About = () => {
     <div
       ref={myRef}
       id="about"
-      className="min-h-screen flex flex-col items-center justify-center gap-10 pt-32"
+      className="min-h-screen flex flex-col items-center justify-center pt-10"
     >
       {/* <h1 className="text-4xl">About Me</h1> */}
-      <div className="flex flex-col lg:flex-row border-2 rounded-lg lg:p-4 gap-10 mx-8">
+      <div className="flex flex-col lg:flex-row border-2 rounded-lg lg:p-4 mx-5 mt-10 lg:mt-0">
         <motion.img
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -37,7 +37,7 @@ const About = () => {
           src="about.png"
           className=" m-auto"
         />
-        <div className="w-4/5 md:w-[40rem] m-auto text-sm text-justify flex flex-col gap-4 md:mr-10">
+        <div className="w-4/5 md:w-[40rem] m-auto text-sm text-justify flex flex-col gap-4 md:px-10 lg:px-0">
           <motion.h1
             initial="hidden"
             whileInView="visible"
@@ -47,7 +47,7 @@ const About = () => {
               ease: easing,
               delay: 0.05,
             }}
-            className="text-xl font-semibold"
+            className="text-xl font-semibold mt-10 lg:mt-0"
           >
             About Me
           </motion.h1>
@@ -262,9 +262,9 @@ const About = () => {
                     alt="svgImg"
                     width={18}
                     className="inline mr-1"
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2048px-Python-logo-notext.svg.png"
                   />
-                  <h3 className="inline font-semibold mr-2">C++</h3>
+                  <h3 className="inline font-semibold mr-2">Python</h3>
                 </>
               </motion.div>
               <motion.div
@@ -276,7 +276,7 @@ const About = () => {
                   ease: easing,
                   delay: 0.45,
                 }}
-                className="flex flex-wrap items-center mb-10 lg:mb-4"
+                className="flex flex-wrap items-center mb-10 lg:mb-0"
               >
                 <h2 className="font-semibold underline">Others: </h2>{' '}
                 <>
