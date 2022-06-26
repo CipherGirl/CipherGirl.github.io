@@ -3,11 +3,11 @@ import { HashLink as Link } from 'react-router-hash-link';
 
 const Navbar = () => {
   return (
-    <div class="flex items-center justify-between bg-base-100 fixed z-10 w-full px-4 lg:px-20 py-2">
+    <div class="flex items-center justify-between bg-base-100 fixed z-[10000] w-full px-4 lg:px-20 pb-2 pt-3">
       <Link to="/#hero" className="brand">
         <img src={require('../Assets/logo.svg').default} alt="ciphergirl" />
       </Link>
-      <div class="dropdown  md:hidden">
+      <div class="dropdown absolute top-2 right-2 md:hidden">
         <label tabindex="0" class="btn btn-ghost lg:hidden">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +26,7 @@ const Navbar = () => {
         </label>
         <ul
           tabindex="0"
-          class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+          class="z-150 flex items-end menu menu-compact dropdown-content right-0  mt-3 p-2 shadow bg-base-100 rounded-box w-52 float-left"
         >
           <li>
             <Link to="/#experience">Experience</Link>

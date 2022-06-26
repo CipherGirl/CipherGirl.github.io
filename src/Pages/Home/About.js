@@ -276,7 +276,7 @@ const About = () => {
                   ease: easing,
                   delay: 0.45,
                 }}
-                className="flex flex-wrap items-center"
+                className="flex flex-wrap items-center mb-10 lg:mb-4"
               >
                 <h2 className="font-semibold underline">Others: </h2>{' '}
                 <>
