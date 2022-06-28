@@ -20,13 +20,13 @@ const About = () => {
   const easing = [0.6, -0.05, 0.01, 0.99];
 
   return (
-    <div
+    <section
       ref={myRef}
       id="about"
-      className="min-h-screen flex flex-col items-center justify-center pt-10"
+      className="flex flex-col items-center justify-center pt-[64px] gap-10 mb-20"
     >
-      {/* <h1 className="text-4xl">About Me</h1> */}
-      <div className="flex flex-col lg:flex-row border-2 rounded-lg lg:p-4 mx-5 mt-10 lg:mt-0">
+      <h1 className="text-4xl">About Me</h1>
+      <div className="flex flex-col lg:flex-row border-2 rounded-lg lg:p-4 mx-5">
         <motion.img
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -37,20 +37,7 @@ const About = () => {
           src="about.png"
           className=" m-auto"
         />
-        <div className="w-4/5 md:w-[40rem] m-auto text-sm text-justify flex flex-col gap-4 md:px-10 lg:px-0">
-          <motion.h1
-            initial="hidden"
-            whileInView="visible"
-            variants={variants}
-            transition={{
-              duration: 0.5,
-              ease: easing,
-              delay: 0.05,
-            }}
-            className="text-xl font-semibold mt-10 lg:mt-0"
-          >
-            About Me
-          </motion.h1>
+        <div className="w-4/5 md:w-[40rem] m-auto text-base text-justify flex flex-col gap-4 md:px-10 lg:px-0 my-4">
           <motion.p
             initial="hidden"
             whileInView="visible"
@@ -61,6 +48,19 @@ const About = () => {
               delay: 0.1,
             }}
           >
+            <motion.h1
+              initial="hidden"
+              whileInView="visible"
+              variants={variants}
+              transition={{
+                duration: 0.5,
+                ease: easing,
+                delay: 0.05,
+              }}
+              className="text-xl font-semibold mt-10 lg:mt-0 mb-1"
+            >
+              Hey there,
+            </motion.h1>
             I am a Javascript person and I love working with the MERN stack.
             Currently looking for an SWE role. Recently had great experience
             working as Intern @Intellibus as part of MLH Fellowship. I am alumni
@@ -204,7 +204,7 @@ const About = () => {
                     alt="svgImg"
                     width={22}
                     className="inline mr-1"
-                    src="https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png"
+                    src="https://symbols.getvecta.com/stencil_79/88_expressjs-icon.54bb6035d3.jpg"
                   />
                   <h3 className="inline font-semibold mr-2">Express.js</h3>
                 </>
@@ -284,7 +284,7 @@ const About = () => {
                     alt="svgImg"
                     width={14}
                     className="inline mx-1"
-                    src="http://assets.stickpng.com/images/5847f40ecef1014c0b5e488a.png"
+                    src="https://seeklogo.com/images/F/firebase-logo-402F407EE0-seeklogo.com.png"
                   />
                   <h3 className="inline font-semibold mr-2">Firebase</h3>
                 </>{' '}
@@ -329,7 +329,7 @@ const About = () => {
           </motion.div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -63,10 +63,10 @@ const Contact = () => {
   useEffect(() => scrollToComponent(), []);
 
   return (
-    <div
+    <section
       ref={myRef}
       id="contact"
-      className="flex flex-col w-full justify-center items-center m-auto pt-20 mb-20"
+      className="flex flex-col w-full justify-center items-center m-auto pt-20"
     >
       <h1 className="text-4xl ">Contact</h1>
 
@@ -234,7 +234,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

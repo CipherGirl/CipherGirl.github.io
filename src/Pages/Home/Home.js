@@ -22,7 +22,7 @@ const Home = () => {
       <motion.div
         ref={myRef}
         id="hero"
-        className="min-h-screen pt-10 lg:pt-0  bg-[url('../public/sm-bg-light.png')] lg:bg-[url('../public/bg-light.png')] flex items-center"
+        className="min-h-screen flex bg-[url('../public/sm-bg-light.png')] lg:bg-[url('../public/bg-light.png')] pt-4"
       >
         <div className="max-w-7xl flex flex-col lg:flex-row justify-between items-center gap-10 m-auto pb-20 pt-10">
           <motion.div

@@ -27,10 +27,10 @@ const Projects = () => {
   };
 
   return (
-    <div
+    <section
       ref={myRef}
       id="projects"
-      className="min-h-[80vh] flex flex-col items-center justify-center gap-10 pt-20 lg:pt-0"
+      className="flex flex-col items-center pt-[64px] gap-10 mb-20"
     >
       <h1 className="text-4xl ">Projects</h1>
       <div className="max-w-[90%] flex flex-wrap items-center justify-evenly gap-5">
@@ -46,7 +46,7 @@ const Projects = () => {
                 delay: 0.1 * (index + 2),
               }}
               whileHover={{ scale: 1.05 }}
-              class="card lg:card-side bg-base-100 shadow-xl border w-[550px] lg:w-[32%] h-auto lg:h-[400px]"
+              class="card lg:card-side bg-base-100 shadow-xl border w-[550px] lg:w-[32%] h-auto lg:h-[400px] overflow-y-auto"
             >
               <div className={`w-full md:w-1/2 h-[300px] md:h-auto m-auto`}>
                 <img src={`${project.image}`} className="object-contain"></img>
@@ -119,7 +119,7 @@ const Projects = () => {
           );
         })}
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -18,12 +18,12 @@ const Experience = () => {
   };
 
   return (
-    <div
+    <section
       ref={myRef}
       id="experience"
-      className="min-h-screen flex flex-col items-center justify-center gap-10 pt-20 mb-12 mx-4"
+      className="pt-[64px] flex flex-col items-center gap-10 mx-4 md:pt-[64px] mb-20"
     >
-      <h1 className="text-4xl ">Experience</h1>
+      <h1 className="text-4xl">Experience</h1>
       <div className="max-w-7xl flex flex-col gap-10">
         <motion.div
           initial="hidden"
@@ -138,7 +138,7 @@ const Experience = () => {
           </p>
         </motion.div>
       </div>
-    </div>
+    </section>
   );
 };
 
