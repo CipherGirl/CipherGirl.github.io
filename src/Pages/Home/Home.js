@@ -1,9 +1,12 @@
 import React, { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
-import Projects from './Projects';
-import About from './About';
-import Contact from './Contact';
-import Experience from './Experience';
+
+//Lazy Import for Faster Inital Render
+
+const Projects = React.lazy(() => import('./Projects'));
+const About = React.lazy(() => import('./About'));
+const Contact = React.lazy(() => import('./Contact'));
+const Experience = React.lazy(() => import('./Experience'));
 
 const Home = () => {
   const myRef = useRef();
@@ -22,7 +25,7 @@ const Home = () => {
       <motion.div
         ref={myRef}
         id="hero"
-        className="min-h-screen flex bg-[url('../public/sm-bg-light.png')] lg:bg-[url('../public/bg-light.png')] pt-4"
+        className="min-h-screen flex bg-[url('../public/sm-bg-light.webp')] lg:bg-[url('../public/bg-light.webp')] pt-4"
       >
         <div className="max-w-7xl flex flex-col lg:flex-row justify-between items-center gap-10 m-auto pb-20 pt-10">
           <motion.div
@@ -56,7 +59,7 @@ const Home = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ type: 'spring', stiffness: 60 }}
           >
-            <img src="/hero.png"></img>
+            <img src="/hero.webp" alt="workspace"></img>
           </motion.div>
         </div>
       </motion.div>

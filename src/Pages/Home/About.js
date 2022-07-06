@@ -34,8 +34,9 @@ const About = () => {
             duration: 0.8,
             ease: easing,
           }}
-          src="about.png"
+          src="about.webp"
           className=" m-auto"
+          alt="avatar"
         />
         <div className="w-4/5 md:w-[40rem] m-auto text-base text-justify flex flex-col gap-4 md:px-10 lg:px-0 my-4">
           <motion.p

@@ -12,7 +12,7 @@
       "Admin Dashboard"
     ],
     "description": "Responsive manufacturer website that has collections of products where users can register to the site, update their profile, leave a review, order and pay for products.\nSeparated admin dashboard. Admin can access products, and orders, and manage them as well. Admin can make other users admin and revoke admin access.",
-    "image": "jontropati-mock.png",
+    "image": "jontropati-mock.webp",
     "preview": [
       "jontropati-1.png",
       "jontropati-2.png",
@@ -42,7 +42,7 @@
     "features": ["User Registration", "Stock Updating"],
     "subtitle": "Fragrance Products Warehouse Inventory Website",
     "description": "Responsive inventory website that has collections of products that users can stock. Users can register to the site and update stocks.\n Authentication and Authorization using Firebase and JWT, MongoDB to store data, and Node/Express App to access API endpoint to interact with the DB through Client.",
-    "image": "aroma-central-mock.png",
+    "image": "aroma-central-mock.webp",
     "preview": [
       "aroma-central-1.png",
       "aroma-central-2.png",
@@ -76,7 +76,7 @@
     ],
     "subtitle": "An open-source Online Judge platform to develop programming skills by practicing programming problems",
     "description": "Collaborated with my teammate to implement the whole project using Git and Github.\nIntegrated Monaco code editor for submission and code view page. Integrated Judge0 API to handle code submission to the judge, get a verdict and show in the UI.",
-    "image": "oj-mock.png",
+    "image": "oj-mock.webp",
     "preview": ["oj-1.png", "oj-2.png", "oj-3.png"],
     "info": "Developed with React, Bootstrap, and Firebase using Judge0 API",
     "techs": ["React,", "Firebase,", "Judge0 API,", "Bootstrap,"],
