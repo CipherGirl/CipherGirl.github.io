@@ -47,7 +47,12 @@ const Projects = () => {
               class="card lg:card-side bg-base-100 shadow-xl border w-[550px] lg:w-[32%] h-auto lg:h-[400px] overflow-y-auto"
             >
               <div className={`w-full md:w-1/2 h-[300px] md:h-auto m-auto`}>
-                <img src={`${project.image}`} className="object-contain"></img>
+                <img
+                  src={`${project.image}`}
+                  width="100%"
+                  height="auto"
+                  className=""
+                ></img>
               </div>
               <div class="p-4 w-full md:w-1/2 flex flex-col justify-between my-2">
                 <div>
