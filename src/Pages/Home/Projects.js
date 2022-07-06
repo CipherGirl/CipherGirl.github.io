@@ -2,8 +2,6 @@ import { useRef, useEffect, useState } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import projects from '../../data.json';
 import { Link, useNavigate } from 'react-router-dom';
-import VisibilitySensor from 'react-visibility-sensor';
-
 const Projects = () => {
   const myRef = useRef();
   const navigate = useNavigate();

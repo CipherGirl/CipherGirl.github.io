@@ -13,11 +13,9 @@
     "gh-pages": "^4.0.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
-    "react-intersection-observer": "^9.3.4",
     "react-router-dom": "^6.3.0",
     "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
-    "react-visibility-sensor": "^5.1.1",
     "swiper": "^8.2.3",
     "web-vitals": "^2.1.4"
   },
