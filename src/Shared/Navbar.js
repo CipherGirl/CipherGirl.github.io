@@ -66,8 +66,8 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <div class="hidden md:flex">
-        <Link class="btn btn-outline btn-accent" to="/#contact">
+      <div class="hidden md:flex items-center justify-center w-24 h-10 rounded-md py-4 text-sm bg-gradient-to-tr from-[#44c4c8] to-purple-400 hover:outline outline-stone-300">
+        <Link class="font-bold text-white font" to="/#contact">
           Contact Me!
         </Link>
       </div>
