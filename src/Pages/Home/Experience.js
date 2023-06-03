@@ -37,6 +37,54 @@ const Experience = () => {
           className="card bg-base-100 shadow-xl border p-10"
         >
           <div className="mb-4">
+            <h1 className="text-xl font-bold">Golden Harvest Infotech</h1>
+            <h2 className="font-semibold">
+              Junior Programmer
+              <em className="float-right font-normal">
+                February 2023 to Present
+              </em>
+            </h2>
+          </div>
+          <h3>
+            <span className="font-semibold"> Project Techs:</span> JavaScript,
+            Typescript React.js, Next.js, Redux, Material UI, Bootstrap,
+            Tailwind CSS, etc.
+          </h3>
+          <div className="mt-4 flex flex-col gap-2">
+            <p>
+              ● Working on a project involving an E-commerce web application
+              designed for eco-conscious people and products. This application
+              has features like a store, social feed, podcast, and
+              resource-sharing platform. My responsibilities are conducting
+              functionality testing, addressing bugs, and refining the user
+              interface. As the project is currently in the Beta testing phase,
+              I am adept at handling numerous hotfixes to ensure its smooth
+              operation and optimal performance.
+            </p>
+            <p>
+              ● Actively involved in a specialized project for data entry
+              operators. The primary objective of this project is to streamline
+              the data input process from images. To accomplish this, we use
+              Canvas for rendering images, which provides the ability to mark
+              data and inputs accurately. Within this R&D phase, I focus on
+              developing proof-of-concept (POC) tasks and utility functions
+              aimed at improving the overall efficiency and effectiveness of the
+              application.
+            </p>
+          </div>
+        </motion.div>
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          variants={variants}
+          transition={{
+            duration: 0.5,
+            ease: easing,
+            delay: 0.1,
+          }}
+          className="card bg-base-100 shadow-xl border p-10"
+        >
+          <div className="mb-4">
             <h1 className="text-xl font-bold">
               Intellibus | Major League Hacking Fellowship
             </h1>

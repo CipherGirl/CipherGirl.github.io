@@ -192,7 +192,7 @@ const About = () => {
                 </div>
                 <div className="flex items-center gap-1 border border-slate-200 rounded-sm px-1 m-[2px]">
                   <img
-                    src={require('../../Assets/expressjs_logo.svg').default}
+                    src="/skills/expressjs.svg"
                     alt="svgImg-express"
                     width={22}
                   />
@@ -242,7 +242,7 @@ const About = () => {
                   <h3 className="font-semibold">C++</h3>
                 </div>
                 <div className="flex items-center gap-1 border border-slate-200 rounded-sm px-1 m-[2px]">
-                  <img alt="svgImg" width={24} src="/skills/python.svg" />
+                  <img alt="svgImg" width={24} src="/python.svg" />
                   <h3 className="font-semibold">Python</h3>
                 </div>
               </motion.div>

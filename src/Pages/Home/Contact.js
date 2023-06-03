@@ -1,15 +1,15 @@
 import React from 'react';
-import { useRef, useEffect } from 'react';
-import emailjs from 'emailjs-com';
+import { useRef, useEffect, useState } from 'react';
+import emailjs from '@emailjs/browser';
 import { motion } from 'framer-motion';
 
 const Contact = () => {
+  const [buttonText, setButtonText] = useState('Send Message');
   const myRef = useRef();
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs
       .sendForm(
         'service_fiarr9c',
@@ -19,13 +19,17 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          e.target.reset();
+          setButtonText('Send A555gain');
+          alert('Message received! Will get back to you shortly.');
         },
         (error) => {
-          console.log(error.text);
+          alert('Something went wrong! ', error.text);
+          setButtonText('Try Again');
         }
       );
   };
+
   function scrollToComponent() {
     if (window.location.hash === '#contact') {
       myRef.current.scrollIntoView();
@@ -226,9 +230,10 @@ const Contact = () => {
               </motion.div>
               <motion.button
                 variants={item}
-                class="inline-block self-end bg-slate-600 font-bold rounded-lg px-6 py-4 uppercase text-sm text-white"
+                class="d-flex flex-row items-center justify-between gap-2 self-end bg-slate-600 font-bold rounded-lg px-6 py-4 uppercase text-sm text-white"
+                onClick={() => setButtonText('Sending...')}
               >
-                Send Message
+                {buttonText}
               </motion.button>
             </motion.form>
           </div>
