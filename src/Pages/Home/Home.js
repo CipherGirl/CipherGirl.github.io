@@ -37,13 +37,14 @@ const Home = () => {
             <h1 className="text-sm mb-2 italic">Hello, I'm</h1>
             <h1 className="text-4xl font-semibold">Hasna Hena Mow</h1>
             <h2 className="text-xl italic">
-              I design and build things for the web.
+              I design and build things for the web{' '}
+              <span className="not-italic">🕸️</span>
             </h2>
             <p className="text-justify mt-4">
-              A recent graduate student developing myself to pursue a career as
-              a Software Engineer. Interested to learn different techs. My
-              favorite programming laguage is JavaScript. I love to work with
-              MERN stack. I love to go by my pseudoname{' '}
+              With a love for JavaScript and expertise in React.js, I am an
+              enthusiastic Frontend Developer on a mission to create delightful
+              user experiences. I bring ideas to life with clean and efficient
+              code. Welcome to the world of{' '}
               <em className="font-semibold">CipherGirl</em>.
             </p>
             <a
