@@ -81,10 +81,10 @@ const About = () => {
               delay: 0.15,
             }}
           >
-            Interested in frontend technologies such as Javascript-based
+            {`Interested in frontend technologies such as Javascript-based
             applications using next.js, react.js. Easing into backend
             technologies node.js, express. Learning about industry best
-            practices TDD, SOLID, etc also AWS services through work experience.
+            practices TDD, SOLID, etc also AWS services through work experience.`}
           </motion.p>
           <motion.p
             initial="hidden"
