@@ -20,7 +20,7 @@ const Contact = () => {
       .then(
         (result) => {
           e.target.reset();
-          setButtonText('Send A555gain');
+          setButtonText('Send Again');
           alert('Message received! Will get back to you shortly.');
         },
         (error) => {
