@@ -68,8 +68,7 @@ const Experience = () => {
               Canvas for rendering images, which provides the ability to mark
               data and inputs accurately. Within this R&D phase, I focus on
               developing proof-of-concept (POC) tasks and utility functions
-              aimed at improving the overall efficiency and effectiveness of the
-              application.
+              aimed at improving the overall efficiency of the application.
             </p>
           </div>
         </motion.div>
