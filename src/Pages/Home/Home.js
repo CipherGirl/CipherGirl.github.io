@@ -34,7 +34,7 @@ const Home = () => {
             transition={{ type: 'spring', stiffness: 60 }}
             className="w-[80%] lg:w-[45%] flex flex-col items-center lg:items-start mt-10 lg:mt-0"
           >
-            <h1 className="text-sm mb-2 italic">Hello, I'm</h1>
+            <h1 className="text-sm mb-2 italic">{"Hello, I'm"}</h1>
             <h1 className="text-4xl font-semibold">Hasna Hena Mow</h1>
             <h2 className="text-xl italic">
               I design and build things for the web{' '}
@@ -50,6 +50,7 @@ const Home = () => {
             <a
               className="btn btn-success btn-wide mt-6"
               target="_blank"
+              rel="noreferrer"
               href="https://drive.google.com/file/d/1ul83JPWdyZUgsL5ppqwRqqkJwZw-gyTX/view"
             >
               Resume

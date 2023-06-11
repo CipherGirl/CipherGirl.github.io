@@ -5,17 +5,19 @@ import projects from '../data.json';
 import { Pagination, Navigation } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/navigation';
+
 const Project = () => {
+  const { id: slug } = useParams();
+  const project = projects.filter((project) => project.slug == slug)[0];
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  const { id: slug } = useParams();
-  const project = projects.filter((project) => project.slug == slug)[0];
-  console.log(project, slug);
+
   return (
     <div className="min-h-[calc(100vh-64px)] pt-[64px] w-4/5 m-auto">
       <div className="pt-20">
-        <h1 class="text-2xl font-bold">
+        <h1 className="text-2xl font-bold">
           {project.title}{' '}
           <span className="inline-block text-sm italic">{project.info}</span>
         </h1>
@@ -23,15 +25,19 @@ const Project = () => {
         <p className="my-2 ">{project.description}</p>
         <h3 className="my-2 font-bold">Key Features: </h3>
         <ul>
-          {project.features.map((feature) => (
-            <li className="pb-1">{feature}</li>
+          {project.features.map((feature, i) => (
+            <li key={i} className="pb-1">
+              {feature}
+            </li>
           ))}
         </ul>
         <h3 className="my-2 font-bold">
           {' '}
           Technologies:{' '}
-          {project.techs.map((tech) => (
-            <span className="font-normal">{tech} </span>
+          {project.techs.map((tech, i) => (
+            <span key={i} className="font-normal">
+              {tech}{' '}
+            </span>
           ))}
         </h3>
         <h3 className="font-bold my-2">Preview:</h3>
@@ -43,8 +49,8 @@ const Project = () => {
           modules={[Pagination, Navigation]}
           className="mySwiperm text-center"
         >
-          {project.preview.map((link) => (
-            <SwiperSlide>
+          {project.preview.map((link, i) => (
+            <SwiperSlide key={i}>
               <div className="w-4/5 m-auto object-contain">
                 <img src={`/${link}`} />
               </div>

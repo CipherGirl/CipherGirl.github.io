@@ -4,12 +4,13 @@ import { motion } from 'framer-motion';
 const Experience = () => {
   const myRef = useRef();
 
-  function scrollToComponent() {
-    if (window.location.hash === '#experience') {
-      myRef.current.scrollIntoView();
-      myRef.current.focus();
-    }
-  }
+  // function scrollToComponent() {
+  //   if (window.location.hash === '#experience') {
+  //     myRef.current.scrollIntoView();
+  //     myRef.current.focus();
+  //   }
+  // }
+
   const easing = [0.6, -0.05, 0.01, 0.99];
 
   const variants = {
@@ -119,6 +120,7 @@ const Experience = () => {
                 className="underline"
                 href="https://github.com/intellibus/bigparser"
                 target="_blank"
+                rel="noreferrer"
               >
                 (Link to Bigparser Github Repo)
               </a>
@@ -168,6 +170,7 @@ const Experience = () => {
             <a
               href="https://github.com/firefox-devtools/profiler"
               target="_blank"
+              rel="noreferrer"
             >
               Project Github Link
             </a>
@@ -175,11 +178,16 @@ const Experience = () => {
             <a
               href="https://github.com/firefox-devtools/profiler/issues/3094"
               target="_blank"
+              rel="noreferrer"
             >
               My contributions
             </a>
             ,
-            <a href="https://ciphergirl.github.io/blog/" target="_blank">
+            <a
+              href="https://ciphergirl.github.io/blog/"
+              target="_blank"
+              rel="noreferrer"
+            >
               Blog Posts
             </a>
           </p>

@@ -62,14 +62,14 @@ const About = () => {
             >
               Hey there,
             </motion.h1>
-            I am a Javascript person and I love working with the MERN stack.
+            {`I am a Javascript person and I love working with the MERN stack.
             Currently looking for an SWE role. Recently had great experience
             working as Intern @Intellibus as part of MLH Fellowship. I am alumni
             of the Outreachy Internship where I worked to implement the i18n
             feature for the project 'Firefox Profiler' by Mozilla. I also
             participated in Google CodeU in 2019 where we developed a web app
             based on Java and Google Cloud Services. Attended Grace Hopper
-            Conference 2018 receiving a scholarship.
+            Conference 2018 receiving a scholarship.`}
           </motion.p>
           <motion.p
             initial="hidden"

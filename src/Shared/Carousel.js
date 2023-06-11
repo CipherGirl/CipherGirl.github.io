@@ -1,15 +1,13 @@
-import { useRef, useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import data from '../data.json';
 
-const Carousel = (props) => {
-  console.log(data);
+const Carousel = () => {
   return (
     <motion.div className="carousel">
       <motion.div className="inner-carousel">
-        {data.map((project) => {
+        {data.map((project, i) => {
           return (
-            <motion.div className="item ">
+            <motion.div className="item" key={i}>
               <img src={project.image} alt="project_preview"></img>
             </motion.div>
           );
