@@ -51,7 +51,7 @@ const Home = () => {
               className="btn btn-success btn-wide mt-6"
               target="_blank"
               rel="noreferrer"
-              href="https://drive.google.com/file/d/1ul83JPWdyZUgsL5ppqwRqqkJwZw-gyTX/view"
+              href="https://drive.google.com/file/d/15523Eursrn2OsdyGf6U1f1A-fPXM-vdU/view"
             >
               Resume
             </a>
