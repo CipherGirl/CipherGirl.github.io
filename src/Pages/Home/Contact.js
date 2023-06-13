@@ -10,6 +10,7 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    setButtonText("Sending...")
     emailjs
       .sendForm(
         'service_fiarr9c',
@@ -191,6 +192,7 @@ const Contact = () => {
                   type="text"
                   name="name"
                   placeholder="Name"
+                  required
                   className="ring-1 ring-gray-300 mt-2 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-slate-300"
                 />
               </motion.div>
@@ -201,6 +203,7 @@ const Contact = () => {
                 <input
                   type="email"
                   name="email"
+                  required
                   placeholder="Email"
                   className="ring-1 ring-gray-300 mt-2 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-slate-300"
                 />
@@ -224,13 +227,13 @@ const Contact = () => {
                   name="message"
                   placeholder="Message"
                   rows="4"
+                  required
                   className="ring-1 ring-gray-300 mt-2 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-slate-300"
                 ></textarea>
               </motion.div>
               <motion.button
                 variants={item}
                 className="d-flex flex-row items-center justify-between gap-2 self-end bg-slate-600 font-bold rounded-lg px-6 py-4 uppercase text-sm text-white"
-                onClick={() => setButtonText('Sending...')}
               >
                 {buttonText}
               </motion.button>
